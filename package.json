@@ -1,0 +1,13 @@
+{
+    "name": "saboop",
+    "description": "saboop web",
+    "scripts": {
+        "firebase-init": "firebase login && firebase init",
+        "gitbook-init": "gitbook init article",
+        "gitbook-build": "gitbook build article public"
+    },
+    "dependencies": {
+        "firebase-tools": "^9.2.0",
+        "gitbook-cli": "latest"
+    }
+}
