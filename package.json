@@ -8,6 +8,6 @@
     },
     "dependencies": {
         "firebase-tools": "^9.2.0",
-        "gitbook-cli": "latest"
+        "gitbook-cli": "^2.3.2"
     }
 }
