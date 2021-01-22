@@ -4,7 +4,7 @@
     "scripts": {
         "firebase-init": "firebase login && firebase init",
         "gitbook-init": "gitbook init article",
-        "gitbook-build": "gitbook build article public"
+        "gitbook-build": "gitbook build article public/_book"
     },
     "dependencies": {
         "firebase-tools": "^9.2.0",
