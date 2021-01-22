@@ -2,3 +2,4 @@ node_modules
 __dist__
 .DS_Store
 .vscode
+public/_book
