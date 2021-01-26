@@ -24,8 +24,7 @@ jobs:
       - name: build
         run: npm run gitbook-build
 
-      - name: publish
-        uses: FirebaseExtended/action-hosting-deploy@v0
+      - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_SABOOP_WEB }}'
