@@ -4,39 +4,12 @@
   "scripts": {
     "firebase-init": "firebase login && firebase init",
     "gitbook-init": "gitbook init article",
-    "gitbook-install": "gitbook install",
-    "gitbook-build": "gitbook build article public/_book"
+    "gitbook-install": "gitbook install article",
+    "gitbook-build": "gitbook build article public/_book",
+    "gitbook-serve": "gitbook serve article public/_book"
   },
   "dependencies": {
     "firebase-tools": "^9.2.0",
-    "gitbook-cli": "^2.3.2",
-    "gitbook-plugin-ace": "^0.3.2",
-    "gitbook-plugin-advanced-emoji": "^0.2.2",
-    "gitbook-plugin-alerts": "^0.2.0",
-    "gitbook-plugin-anchor-navigation-ex": "^1.0.14",
-    "gitbook-plugin-chart": "^0.2.2",
-    "gitbook-plugin-emphasize": "^1.1.0",
-    "gitbook-plugin-expandable-chapters-small": "^0.1.7",
-    "gitbook-plugin-favicon": "0.0.2",
-    "gitbook-plugin-graph": "^0.1.0",
-    "gitbook-plugin-highlight": "^2.0.3",
-    "gitbook-plugin-include-codeblock": "^3.2.2",
-    "gitbook-plugin-include-csv": "^1.0.1",
-    "gitbook-plugin-katex": "^1.1.4",
-    "gitbook-plugin-klipse": "^1.2.0",
-    "gitbook-plugin-local-video": "^1.0.1",
-    "gitbook-plugin-mermaid-gb3": "^2.1.0",
-    "gitbook-plugin-multipart": "^0.3.0",
-    "gitbook-plugin-puml": "^1.0.1",
-    "gitbook-plugin-search-plus": "^1.0.3",
-    "gitbook-plugin-sectionx": "^3.1.0",
-    "gitbook-plugin-sharing-plus": "0.0.2",
-    "gitbook-plugin-sitemap-general": "^0.1.1",
-    "gitbook-plugin-splitter": "0.0.8",
-    "gitbook-plugin-tbfed-pagefooter": "0.0.1",
-    "gitbook-plugin-terminal": "^0.3.2",
-    "gitbook-plugin-theme-comscore": "0.0.3",
-    "gitbook-plugin-todo": "^0.1.3",
-    "gitbook-plugin-yahei": "0.0.8"
+    "gitbook-cli": "^2.3.2"
   }
 }

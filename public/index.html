@@ -31,18 +31,19 @@
         height: 100%;
         overflow: hidden;
       }
-      #viewDiv {
+      #content {
+        width: 100%;
         height: 100%;
       }
     </style>
   </head>
   <body>
-    <div id="viewDiv" style="width: 100%; height: 100%"></div>
+    <div id="content"></div>
 
     <!-- <p id="load" style="display: none;">Firebase SDK Loading&hellip;</p> -->
 
     <script>
-      var content = document.getElementById("viewDiv");
+      var content = document.getElementById("content");
       content.innerHTML =
         '<object type="text/html" data="_book/index.html" width="100%" height="100%"></object>';
       document.addEventListener("DOMContentLoaded", function () {

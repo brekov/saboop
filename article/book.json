@@ -1,0 +1,103 @@
+{
+  "title": "天地不仁，以万物为刍狗",
+  "description": "多言数穷，不如守中",
+  "author": "brekov.fg",
+  "output.name": "site",
+  "language": "zh-hans",
+  "gitbook": "3.2.3",
+  "root": ".",
+  "structure": {
+    "readme": "README.md"
+  },
+  "plugins": [
+    "hide-element",
+    "-donate",
+    "prism", "-highlight",
+    "-lunr", "-search", "search-plus",
+    "-sharing", "sharing-plus",
+    "theme-comscore",
+    "include-codeblock",
+    "yahei",
+    "anchor-navigation-ex",
+    "expandable-chapters", "chapter-fold",
+    "tbfed-pagefooter",
+    "sectionx",
+    "terminal",
+    "todo",
+    "back-to-top-button",
+    "sitemap-general"
+  ],
+  "pluginsConfig": {
+    "hide-element": {
+        "elements": [".gitbook-link"]
+    },
+    "theme-default": {
+      "showLevel": false
+    },
+    "prism": {
+      "css": ["prismjs/themes/prism-okaidia.css"]
+    },
+    "include-codeblock": {
+      "template": "ace",
+      "unindent": true,
+      "edit": true
+    },
+    "sharing": {
+      "douban": false,
+      "facebook": false,
+      "google": false,
+      "hatenaBookmark": false,
+      "instapaper": false,
+      "line": false,
+      "linkedin": true,
+      "messenger": false,
+      "pocket": true,
+      "qq": true,
+      "qzone": false,
+      "stumbleupon": false,
+      "twitter": false,
+      "viber": false,
+      "vk": false,
+      "weibo": true,
+      "whatsapp": false,
+      "all": [
+        "facebook",
+        "google",
+        "twitter",
+        "weibo",
+        "linkedin",
+        "pocket",
+        "qq",
+        "qzone"
+      ]
+    },
+    "tbfed-pagefooter": {
+      "copyright": "Copyright © saboop.com 2021",
+      "modify_label": "该文件修订时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "simple-page-toc": {
+      "maxDepth": 3,
+      "skipFirstH1": true
+    },
+    "sitemap-general": {
+      "prefix": "http://www.saboop.com"
+    },
+    "anchor-navigation-ex": {
+      "isRewritePageTitle": false,
+      "showLevel": true,
+      "showGoTop": false,
+      "tocLevel1Icon": "fa fa-hand-o-right",
+      "tocLevel2Icon": "fa fa-hand-o-right",
+      "tocLevel3Icon": "fa fa-hand-o-right"
+    },
+    "sectionx": {
+      "tag": "b"
+    },
+    "terminal": {
+      "copyButtons": true,
+      "fade": false,
+      "style": "flat"
+    }
+  }
+}
