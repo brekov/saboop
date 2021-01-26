@@ -24,10 +24,12 @@ jobs:
       - name: build
         run: npm run gitbook-build
 
-      - uses: FirebaseExtended/action-hosting-deploy@v0
+      - name: publish
+        uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_SABOOP_WEB }}'
+          channelId: live
           projectId: saboop-web
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
